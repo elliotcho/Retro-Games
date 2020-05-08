@@ -1,0 +1,50 @@
+#grid{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+#grid div{
+    width: 30px;
+    height: 30px;
+}
+
+.shooter{
+    background: blue;
+}
+
+.invader{
+    border-radius: 15px;
+    background: darkgreen;
+}
+
+.laser{
+    background: orange;
+}
+
+.hit{
+    background: red;
+}
+
+button{
+    width: 70px;
+    height: 50px;
+    display: block;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    background: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#start:hover{
+    background: gray;
+}
+
+#restart:hover{
+    background: gray;
+}

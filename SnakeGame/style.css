@@ -1,0 +1,39 @@
+h2{
+    display: inline;
+}
+
+button{
+    margin-left: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: lightgray;
+}
+
+#grid{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+.tile{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background: green;
+}
+
+.apple{
+    background: red;
+}
