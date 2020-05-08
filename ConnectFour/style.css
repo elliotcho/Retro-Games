@@ -14,11 +14,11 @@
 }
 
 .playerOne{
-    background-image: url('p1.png');
+    background-image: url('Images/p1.png');
 }
 
 .playerTwo{
-    background-image: url('p2.jpg');
+    background-image: url('Images/p2.jpg');
 }
 
 button{
